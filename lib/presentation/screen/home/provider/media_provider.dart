@@ -46,7 +46,24 @@ class MediaProvider extends ChangeNotifier {
       _currentPosition = Duration.zero;
       notifyListeners();
     });
+
+    // play,pause,stopped,complete
+    _audioPlayer.onPlayerStateChanged.listen((state) {
+      _isPlaying = state == PlayerState.playing;
+      notifyListeners();
+    });
+
+
+    // Automatically play the next song when the current one finishes
+    _audioPlayer.onPlayerComplete.listen((event) {
+      
+    }); 
     
+    if (playlist.isNotEmpty){}
+
+    Future <void>playNext (){
+      _currentIndex = (_currentIndex + 1) % _playlist.length;
+    } 
 
 
 
