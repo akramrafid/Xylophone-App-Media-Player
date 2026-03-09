@@ -65,7 +65,12 @@ class MediaProvider extends ChangeNotifier {
       _currentIndex = (_currentIndex + 1) % _playlist.length;
     } 
 
+    Future <void>playPrevious (){
+    }
 
+    Future <void> seek (Duration position) async {
+      await _audioPlayer.seek(position);
+    }
 
 
   }
