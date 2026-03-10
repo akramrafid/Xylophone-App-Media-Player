@@ -1,6 +1,6 @@
 {
-    "name": "xylophone_music_player",
-    "short_name": "xylophone_music_player",
+    "name": "music_player",
+    "short_name": "music_player",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

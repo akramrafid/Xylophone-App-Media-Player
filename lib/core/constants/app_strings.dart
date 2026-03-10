@@ -1,5 +1,4 @@
 class AppStrings {
-  
   AppStrings._();
-  static const String appTitle = 'Music Player';
+  static const String appName = 'Music Player';
 }
