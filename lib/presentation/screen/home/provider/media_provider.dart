@@ -59,13 +59,19 @@ class MediaProvider extends ChangeNotifier {
       if (playlist.isNotEmpty){}
       
     }); 
+
+    Future <void> setAudioSource() async {
+      if (currentSong != null) {
+        final url = currentSong!.url;
+      }
+    }
     
     Future <void> playSongAtIndex(int index)async{
       if (index >= 0 && index < _playlist.length) {
         _currentIndex = index;
         await _audioPlayer.play(UrlSource(_playlist[_currentIndex].url));
       }
-      
+
     }
 
     Future <void>playNext (){
