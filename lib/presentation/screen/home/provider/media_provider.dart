@@ -56,10 +56,17 @@ class MediaProvider extends ChangeNotifier {
 
     // Automatically play the next song when the current one finishes
     _audioPlayer.onPlayerComplete.listen((event) {
+      if (playlist.isNotEmpty){}
       
     }); 
     
-    if (playlist.isNotEmpty){}
+    Future <void> playSongAtIndex(int index)async{
+      if (index >= 0 && index < _playlist.length) {
+        _currentIndex = index;
+        await _audioPlayer.play(UrlSource(_playlist[_currentIndex].url));
+      }
+      
+    }
 
     Future <void>playNext (){
       _currentIndex = (_currentIndex + 1) % _playlist.length;
