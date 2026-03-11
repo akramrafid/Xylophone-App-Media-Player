@@ -1,4 +1,4 @@
-![Screenshot 2026-03-12 000844](https://github.com/user-attachments/assets/2ce873b6-0e6d-451b-86b4-74415c3ab8a7)# Music Player
+![Screenshot 2026-03-12 000844](https://github.com/user-attachments/assets/2ce873b6-0e6d-451b-86b4-74415c3ab8a7)
 
 ## Features
 - **Top Player Section**: View current song details, control playback, and scrub through the track with a progress slider.
