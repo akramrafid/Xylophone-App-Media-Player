@@ -1,4 +1,5 @@
-# Music Player
+![Screenshot 2026-03-12 000844](https://github.com/user-attachments/assets/2ce873b6-0e6d-451b-86b4-74415c3ab8a7)# Music Player
+![Screenshot 2026-03-12 000844](https://github.com/user-attachments/assets/f31e45e5-39f5-46b9-a410-103c68300c5a)
 
 <img width="300" height="607" alt="Screenshot 2026-03-08 at 10 31 24 PM" src="https://github.com/user-attachments/assets/6496a592-9993-4b3e-bdf9-94dfc64ca725" />
 
